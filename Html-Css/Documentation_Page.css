@@ -89,6 +89,7 @@ code {
   #navbar ul {
     border: 1px solid;
     height: 207px;
+    overflow: hidden;
   }
 
   #navbar {
