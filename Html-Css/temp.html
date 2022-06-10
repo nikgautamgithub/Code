@@ -1,34 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="temp.css">
-    <title>Navbar</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="temp2.css" />
 </head>
 <body>
-    <header class="header">
-        <img src="logo.png" alt="Aesthetic Coffee" class="logo">
-        <nav class="navbar">
-            <ul class="navbar-lst">
-                <li><a href="#" class="navbar-link">Home</a></li>
-                <li><a href="#" class="navbar-link">About</a></li>
-                <li><a href="#" class="navbar-link">Service</a></li>
-                <li><a href="#" class="navbar-link">Gallery</a></li>
-                <li><a href="https://instagram.com/anshu.ck" class="navbar-link" target="_blank">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="ham-menu">
-            <ion-icon name="close-circle-outline" class="ham-icon"></ion-icon>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+<div id="page-wrapper">
+    <header id="header">
+        <div class="container">
+            <div id="search"></div>
+            <div id="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/H%26M-Logo.svg" alt="Logo"
+                    id="header-img">
+            </div>
+
+            <div id="navbar">
+                <nav id="nav-bar">
+                    <ul>
+                        <li><a class="nav-link" href="#Signup">Sign Up</a></li>
+                        <li><a class="nav-link" href="#Collections">Collections</a></li>
+                        <li><a class="nav-link" href="#Pricing">Pricing</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-    <main>
-        <section class="hero">
-            <div class="hero-txt">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, consequatur?</p>
+
+    <div class="first"></div>
+    <section id="About">
+        <div id="Collections">
+            <iframe id="video" height="315" width="498" src="https://www.youtube.com/embed/YLgXqx3nrnw" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <div id="Pricing">
+        <div>
+            <img class="pricing_pic"
+                src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcd%2Fa4%2Fcda423119a1338fdb4d03045b8e91492db97667e.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]">
+            <p class="money" id="paise">Rs.2,299</p>
+        </div>
+        <div>
+            <img class="pricing_pic"
+                src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fbe%2F42%2Fbe42028b58d3f66f85b5adb6ce86c83079a811b7.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]">
+            <p class="money">Rs.2,999</p>
+        </div>
+    </div>
+
+
+    <div class="last second">
+        <div class="form"></div>
+        <h5 id="Signup"></
+            <p class="text">Sign up to get latest updates on your email!</h2>
+            </p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                <input id="submit" type="submit" value="Get Started" />
+            </form>
+
+            <div class="copyright">
+                <p>Copyright@19, H&M</p>
             </div>
-        </section>
-    </main>
-<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-<script src="temp.js"></script>
-</body>
-</html>
+    </div>
+    </body>
+
+    </html>
