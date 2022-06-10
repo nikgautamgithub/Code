@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background: rgb(255, 243, 230,30%);
+  }
+  li{ 
+    display: inline;
+    list-style: none;
+    padding: 0px 19px; 
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  input{
+    width: 100%;
+  }
+    /* header */
+  .upppar-wala-box{
+    background: rgb(194, 204, 214);
+    background-image: url('https://1118730033.rsc.cdn77.org/storage/D13A87776ADBC2C23BB4B99C84B716CF9A2803897671D46F6DCB7FB1AD037013/9aade6df2b594da0a9b7cf61e2312073/jpg/media/592959e827b74398ace187b110a4ccb7/Kampanjsektion_News_SS22_Poetess.jpg');
+    padding: 100px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(255, 218, 179);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0.5em outset rgb(255, 255, 255,70%);
+    position: fixed;
+    top:0;
+    width: 100%;
+  }
+  #logo{
+    display: block;
+    align-items: center;
+    margin-left: 250px; 
+  }
+  #header-img{
+    width: 100px;
+    
+  }
+  #photo-wala-box{
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
+  }
+  #adphoto{
+    margin-left: 30px;
+    width: 100%;
+  }
+  #form{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  #join{
+    margin: 30% 0 30% 65%;
+    border: 2px solid rgb(194, 204, 214,50%);
+    border-radius: 20px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-align: center;
+    font-size: 150%;
+  }
+  #submit{
+    display: block;
+    margin: auto auto;
+    margin-top: 2%;
+    width: 20%;
+    border-radius: 5px;
+    padding: 0.8%;
+  }
+  #video{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:5%;
+  }
+  #signup{
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Permanent Marker', cursive;
+  }
+  #email{
+    padding: 2%;
+    border-radius: 10px;
+  }
+  input[type="email"]::placeholder{
+    text-align: center;
+  }
+  .text{
+    text-align:center;
+    font-family: 'Grape Nuts', cursive;
+    font-size: 20px;
+    margin: 0 10%;
+  }
+  .pricing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 4% 4%;
+  }
+  .pricing_pic{
+    border: 1px solid black;
+  }
+  .money{
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 0.5em;
+    font-family: 'Grape Nuts', cursive;
+  }
+  .copyright{
+    padding: 3%;
+    text-align: right;
+    background-color: rgb(196, 196, 196);
+  }
+  .join{
+    color: white;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .nav-link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  @media(min-width: 600px){
+    .text{
+    font-size: 39px;
+    }
+  }
